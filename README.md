@@ -38,6 +38,36 @@ To set up the **Next Word Predictor** locally, follow these steps:
 3.**Run the Application**:
   ```bash
   streamlit run app.py
+```
+## Access the Application
 
+Open your browser and go to [http://127.0.0.1:8501](http://127.0.0.1:8501).
+
+---
+
+## Usage
+
+1. Launch the application in your browser.
+2. Enter a partial sentence or phrase in the input box.
+3. The application will display the top predictions with their probabilities.
+
+---
+
+## Scalability and Novelty
+
+- **Enhanced Predictions**: Avoids placeholder outputs like "unk" for a refined user experience.
+- **Interactive UI**: Streamlit ensures responsiveness and ease of use.
+- **Expandable Dataset**: Train the model on new datasets to improve accuracy over time.
+- **AI-Powered Insights**: Leverages machine learning for real-time text generation support.
+
+---
+
+## License
+
+This project is open-sourced under the [MIT License](LICENSE).
+
+---
+
+Contributions are welcome! Feel free to fork the repository and enhance the project with your ideas. ✨
 
 
